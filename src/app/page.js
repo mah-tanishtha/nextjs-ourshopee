@@ -37,7 +37,7 @@ export default function Home() {
 
   return (
     <div className="space-y-6">
-      {/* 🔍 Search & Filter Bar */}
+     
       <div className="flex flex-col sm:flex-row gap-4 justify-between items-center bg-white p-4 rounded-xl shadow-md sticky top-0 z-10">
         <input
           type="text"
@@ -59,7 +59,7 @@ export default function Home() {
         </select>
       </div>
 
-      {/* 🛍 Product Grid */}
+     
       {filteredProducts.length > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {filteredProducts.map((p) => (

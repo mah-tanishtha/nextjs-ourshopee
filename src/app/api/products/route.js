@@ -1,6 +1,6 @@
 export async function GET() {
   try {
-    // Fetch data from a public API
+    // Fetching data 
     const res = await fetch('https://fakestoreapi.com/products');
 
     if (!res.ok) {
@@ -9,7 +9,7 @@ export async function GET() {
 
     const data = await res.json();
 
-    // Return it as a response
+
     return new Response(JSON.stringify(data), { status: 200 });
   } catch (error) {
     console.error(error);
