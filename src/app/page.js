@@ -38,7 +38,7 @@ export default function Home() {
   return (
     <div className="space-y-6">
      
-      <div className="flex flex-col sm:flex-row gap-4 justify-between items-center bg-white p-4 rounded-xl shadow-md sticky top-0 z-10">
+      <div className="flex flex-col sm:flex-row gap-4 justify-between items-center bg-white p-4 rounded-xl shadow-md  z-10">
         <input
           type="text"
           placeholder="Search products..."
